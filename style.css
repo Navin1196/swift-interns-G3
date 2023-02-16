@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.swift_main{
+    background-image:url(img/Group\ 16216.png) ;
+    width: 100%;
+}
+.main_heading{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.main_heading_part{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+
+.download_app{
+padding:15px ;
+}
+
+.become_our_partner button{
+    background-color: #DF0054;
+    color: white;
+    padding: 15px;
+    border-color: #DF0054;
+    border-radius: 7px;
+    border-width: 1px;
+}
+.hand_mobile{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 136px;
+}
+.hand_image{
+    height: auto;
+    width: 500px;
+}
+.gplay_image{
+    height: auto;
+    width: 200px;
+}
+.app_image{
+    height: auto;
+    width: 200px;
+}
+.hand_image_heading{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.hand_mobile_contents{
+    margin-top: 8%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.main_hand_image{
+background-image: url(img/Ellipse\ 63.png);
+}
+
+.about_img{
+    background-image: url(img/about_background.png);
+}
+
+.aboutus{
+}
+.aboutus_heading{
+    color: #DF0054;
+}
+.about_bg{
+    background-image: url(img/about_bg.png);
+}
