@@ -65,16 +65,34 @@ padding:15px ;
 .main_hand_image{
 background-image: url(img/Ellipse\ 63.png);
 }
-
-.about_img{
-    background-image: url(img/about_background.png);
-}
-
 .aboutus{
+    display: flex;
+    justify-content: space-between;
 }
-.aboutus_heading{
+.about_heading1{
     color: #DF0054;
 }
-.about_bg{
-    background-image: url(img/about_bg.png);
+.about_content1{
+    margin-top: 8%;
+    margin-left: 10%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.partner_main{
+    text-align: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.partner_btn{
+    background-color: #DF0054;
+    margin-left: 42%;
+    margin-right: 42%;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #DF0054;
+    color: white;
+    padding: 10px;
+
 }
