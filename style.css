@@ -5,6 +5,9 @@
 }
 body{
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .swift_main{
     background-image:url(img/Group\ 16216.png) ;
@@ -38,6 +41,7 @@ padding:15px ;
     justify-content: space-between;
     margin-left: 10%;
     margin-top: 136px;
+    margin-top: 5%;
 }
 .hand_image{
     height: auto;
@@ -77,4 +81,24 @@ background-image: url(img/Ellipse\ 63.png);
 }
 .about_bg{
     background-image: url(img/about_bg.png);
+}
+
+.partner_button {
+    color: white;
+    padding: 1%;
+    font-size: 14px;
+    background-color: #d91f4d;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #d91f4d;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.become_our_partner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
 }
