@@ -84,6 +84,9 @@ background-image: url(img/Ellipse\ 63.png);
     gap: 30px;
     display: flex;
     flex-direction: column;
+    background-color: #feeffc;
+    width: 100%;
+    padding: 3%;
 }
 .partner_btn{
     background-color: #DF0054;
@@ -94,5 +97,81 @@ background-image: url(img/Ellipse\ 63.png);
     border-color: #DF0054;
     color: white;
     padding: 10px;
+}
+.form{
+   
+}
+.form_head{
+display: flex;
+justify-content: space-around;
+margin-top: 15px;
+}
+.form_partner_head{
+    margin-top: 7px;
+}
 
+.form_btn button{
+    background-color: #DF0054;
+    color: white;
+    padding: 15px;
+    border-color: #DF0054;
+    border-radius: 7px;
+    border-width: 1px;
+}
+.form_contents{
+    
+}
+.form_head_content{
+    color: #DF0054;
+    
+}
+.form_otp{
+    color: #DF0054;
+    text-align: center;
+}
+.form_main{
+    border-radius: 2px;
+    border-width: 40px;
+    border-color: grey;
+    margin-top: 35px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form_submit{
+    display: flex;
+    justify-content: end;
+    margin-right: 30.5%;
+}
+.form_submit button{
+    background-color: #DF0054;
+    color: white;
+    padding: 15px;
+    border-color: #DF0054;
+    border-radius: 7px;
+    border-width: 1px;
+}
+.form_footer{
+    background-color: #DF0054;
+    margin-top: 5%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.form_full{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input_col{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(214, 213, 213);
+    width: 250px;
+    height: 35px;
+    margin-top: 10%;
 }
